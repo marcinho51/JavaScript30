@@ -148,6 +148,7 @@
       ];
 
       const transportation = data.reduce((obj, item) => {
+        console.log(obj);
         if (!obj[item]) {
           obj[item] = 0;
         }
